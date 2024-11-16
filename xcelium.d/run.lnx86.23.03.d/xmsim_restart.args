@@ -1,0 +1,30 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++compile
++sv
++incdir+tb_classes
++incdir+.
++nowarn+DSEMEL
+-NOWARN
+DSEMEL
+-MESSAGES
++EMGRLOG
+xrun.log
+-XLSTIME
+1731676192
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx86.23.03.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx86.23.03.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx86.23.03.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun	23.03-s007"
+-XLNAME
+./xcelium.d/run.lnx86.23.03.d/cadence24_3163

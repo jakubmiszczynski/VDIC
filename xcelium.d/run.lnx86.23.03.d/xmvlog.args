@@ -1,0 +1,28 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx86.23.03.d
+-RUNMODE
+-sv
+lab04/tb/../../common/fifomult2024.svp
+lab04/tb/fifomult_tb_pkg.svh
+lab04/tb/fifomult_bfm.sv
+lab04/tb/top.sv
+-INCDIR
+lab04/tb/tb_classes
+-INCDIR
+lab04/tb/.
+-NOWARN
+DSEMEL
+-CDSLIB
+./xcelium.d/run.lnx86.23.03.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx86.23.03.d/hdlrun.var
+-no_analogsolver
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx86.23.03.d/xllibs
+-ALLOWUNBOUND
