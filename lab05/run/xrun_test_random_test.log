@@ -1,0 +1,1219 @@
+SVSEED default: 1
+xcelium> source /eda/cadence/2023-24/RHELx86/XCELIUM_23.03.007/tools/xcelium/files/xmsimrc
+xcelium> source /eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+UVM_INFO @ 0: reporter [RNTST] Running test random_test...
+[1;30m[103m*** Created tpgen type: random_tpgen ***[0m
+
+UVM_INFO /eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_root.svh(605) @ 0: reporter [UVMTOP] UVM testbench topology:
+-------------------------------------------
+Name              Type          Size  Value
+-------------------------------------------
+uvm_test_top      random_test   -     @1924
+  env_h           env           -     @2001
+    coverage_h    coverage      -     @2064
+    scoreboard_h  scoreboard    -     @2096
+    tpgen_h       random_tpgen  -     @2033
+-------------------------------------------
+
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-26227 B=21010, parA=0 parB=1
+Test passed for A=-12995 B=-2164, parA=0 parB=0
+Test passed for A=-11606 B=29303, parA=0 parB=0
+Test passed for A=32767 B=31464, parA=1 parB=1
+Hello from get_exp
+Test passed for A=22573 B=25187, parA=1 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=-10669, parA=1 parB=1
+Test passed for A=32767 B=-5859, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=700 B=32767, parA=0 parB=1
+Test passed for A=21839 B=-32768, parA=1 parB=1
+Test passed for A=-25615 B=32767, parA=0 parB=1
+Test passed for A=-24177 B=0, parA=0 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=0 B=-943, parA=0 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=32767 B=-32403, parA=1 parB=1
+Test passed for A=-32768 B=-30600, parA=1 parB=0
+Test passed for A=-20694 B=0, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-27981, parA=1 parB=0
+Test passed for A=14027 B=-9382, parA=1 parB=0
+Test passed for A=32767 B=-7499, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-21028 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-5810 B=13322, parA=1 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=32767 B=-7562, parA=1 parB=1
+Test passed for A=6726 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=0, parA=0 parB=0
+Test passed for A=-25554 B=0, parA=0 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-22682 B=0, parA=1 parB=0
+Test passed for A=31226 B=-2534, parA=1 parB=1
+Test passed for A=8640 B=6838, parA=0 parB=0
+Test passed for A=-136 B=-32549, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-27056 B=-30667, parA=0 parB=0
+Test passed for A=-19304 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=-32600, parA=1 parB=0
+Test passed for A=26342 B=-19158, parA=1 parB=0
+Test passed for A=-6600 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-28538, parA=1 parB=1
+Test passed for A=32767 B=-12924, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=15817, parA=1 parB=1
+Test passed for A=-16533 B=0, parA=0 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=1293, parA=1 parB=0
+Test passed for A=32767 B=9281, parA=1 parB=0
+Test passed for A=-32768 B=8795, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=32767 B=-9055, parA=1 parB=0
+Test passed for A=0 B=-1631, parA=0 parB=1
+Test passed for A=0 B=-27884, parA=0 parB=0
+Test passed for A=32767 B=-28947, parA=1 parB=0
+Test passed for A=8743 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=1411 B=-32768, parA=1 parB=1
+Test passed for A=0 B=3462, parA=0 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Hello from get_exp
+Test passed for A=0 B=-32768, parA=0 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=32767 B=-4541, parA=1 parB=1
+Test passed for A=-25151 B=-7590, parA=0 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-12642 B=-32768, parA=0 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-26293 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=-26109, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=5458 B=0, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-28020, parA=0 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-31950 B=32767, parA=0 parB=1
+Test passed for A=843 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=16490, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=16797, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=1 parB=0
+Test passed for A=-25286 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=1 parB=0
+Test passed for A=10647 B=-32768, parA=0 parB=1
+Test passed for A=0 B=-10647, parA=0 parB=1
+Test passed for A=13775 B=0, parA=0 parB=0
+Test passed for A=25930 B=0, parA=1 parB=0
+Test passed for A=0 B=-4474, parA=0 parB=1
+Test passed for A=-2604 B=-26762, parA=0 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=-1488 B=-9626, parA=0 parB=1
+Test passed for A=0 B=30447, parA=0 parB=0
+Test passed for A=19808 B=-5592, parA=0 parB=1
+Test passed for A=32767 B=5486, parA=1 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=32767 B=-27250, parA=1 parB=0
+Test passed for A=32767 B=-12197, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=4249, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=27629, parA=1 parB=1
+Test passed for A=7387 B=-24720, parA=1 parB=1
+Test passed for A=-8598 B=-32768, parA=0 parB=1
+Test passed for A=-31624 B=-12708, parA=0 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=25044, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=10498 B=0, parA=0 parB=0
+Test passed for A=12776 B=0, parA=1 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=0 B=-10199, parA=0 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=-20491 B=4756, parA=0 parB=1
+Test passed for A=0 B=1786, parA=0 parB=0
+Test passed for A=-32768 B=-9289, parA=1 parB=0
+Test passed for A=32767 B=30312, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=0 B=28120, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-29122, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=0 B=-11862, parA=0 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=19227 B=-16024, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=1217 B=-32768, parA=0 parB=1
+Test passed for A=-2369 B=0, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=5361 B=17157, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-8963, parA=1 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=0 B=12030, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=28897 B=29881, parA=1 parB=0
+Test passed for A=-13508 B=21848, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=0, parA=0 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=0 B=-28025, parA=0 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=4885, parA=0 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-6436 B=0, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=25218, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=1
+Test passed for A=29210 B=0, parA=1 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-32684, parA=1 parB=0
+Test passed for A=0 B=-3080, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-22992, parA=0 parB=0
+Test passed for A=3937 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=11475, parA=0 parB=0
+Test passed for A=0 B=-6717, parA=0 parB=1
+Test passed for A=-25130 B=17539, parA=0 parB=1
+Test passed for A=-9403 B=2885, parA=1 parB=0
+Test passed for A=22892 B=0, parA=0 parB=0
+Test passed for A=-32768 B=11278, parA=1 parB=0
+Hello from get_exp
+Test passed for A=29829 B=32767, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-9375 B=-32768, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=6897 B=-20817, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=27508 B=-32768, parA=1 parB=1
+Test passed for A=-7528 B=-13552, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-29393 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=-32575, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32024 B=-32768, parA=0 parB=1
+Test passed for A=-23304 B=0, parA=0 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=11644 B=21643, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=1997 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-29348 B=-14100, parA=0 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=1 parB=0
+Test passed for A=9737 B=-11075, parA=1 parB=0
+Test passed for A=14991 B=-12933, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-3617 B=16752, parA=0 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=32767 B=-17463, parA=1 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=32767 B=-28831, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=29382 B=-4964, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=1990 B=32767, parA=0 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-10883, parA=0 parB=1
+Test passed for A=-24058 B=32767, parA=1 parB=1
+Test passed for A=4941 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=32767 B=32254, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=32767 B=26668, parA=1 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=0 B=20433, parA=0 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-14720 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-637, parA=1 parB=0
+Test passed for A=-32768 B=-8207, parA=1 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=0 B=-7633, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=10863 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-30351 B=-31027, parA=1 parB=0
+Test passed for A=32767 B=-3408, parA=1 parB=0
+Test passed for A=-1186 B=0, parA=0 parB=0
+Test passed for A=14793 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=10164 B=-16028, parA=0 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-32768 B=-31227, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-3210 B=-16972, parA=1 parB=0
+Test passed for A=-27802 B=-11969, parA=0 parB=0
+Test passed for A=-32768 B=4944, parA=1 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-22007 B=0, parA=0 parB=0
+Test passed for A=0 B=-6442, parA=0 parB=0
+Test passed for A=-2763 B=0, parA=0 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=1 parB=0
+Test passed for A=32767 B=-25211, parA=1 parB=0
+Test passed for A=16948 B=-3759, parA=1 parB=0
+Test passed for A=-7500 B=16175, parA=0 parB=1
+Test passed for A=-13667 B=0, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=1 parB=0
+Test passed for A=32767 B=25070, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=31179 B=-32768, parA=0 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=27305 B=-13347, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=3744 B=-30859, parA=1 parB=1
+Test passed for A=-26252 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=32767 B=6995, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-4361 B=-13763, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=4387 B=74, parA=1 parB=1
+Test passed for A=0 B=-8847, parA=0 parB=0
+Test passed for A=-32768 B=26622, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=1 parB=0
+Test passed for A=0 B=11256, parA=0 parB=1
+Test passed for A=12088 B=0, parA=0 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=28572, parA=1 parB=0
+Test passed for A=32767 B=10797, parA=1 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=-32768 B=-26286, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=19585 B=-53, parA=1 parB=1
+Test passed for A=13885 B=59, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=18339, parA=1 parB=0
+Test passed for A=32767 B=11863, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-3219 B=3069, parA=1 parB=0
+Test passed for A=-29802 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=32034, parA=1 parB=0
+Hello from get_exp
+Test passed for A=26032 B=32767, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-11047 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-28504, parA=1 parB=0
+Test passed for A=32767 B=-4328, parA=1 parB=1
+Test passed for A=-31850 B=-32768, parA=1 parB=1
+Test passed for A=-10486 B=-32768, parA=0 parB=1
+Test passed for A=30301 B=32767, parA=0 parB=1
+Test passed for A=6938 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-30179, parA=1 parB=1
+Test passed for A=-30574 B=-25874, parA=1 parB=0
+Test passed for A=25767 B=-32768, parA=0 parB=1
+Test passed for A=-15219 B=28987, parA=1 parB=1
+Test passed for A=-32768 B=-17128, parA=1 parB=0
+Test passed for A=-9893 B=0, parA=0 parB=0
+Test passed for A=0 B=21541, parA=0 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=14300 B=-32768, parA=0 parB=1
+Test passed for A=1198 B=32767, parA=0 parB=1
+Test passed for A=2566 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=21579, parA=1 parB=1
+Test passed for A=-28202 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=0, parA=0 parB=0
+Test passed for A=-32768 B=-21519, parA=1 parB=0
+Test passed for A=32767 B=31426, parA=1 parB=0
+Test passed for A=-13032 B=12270, parA=1 parB=1
+Test passed for A=18136 B=-18366, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-12836 B=-2895, parA=0 parB=0
+Test passed for A=17458 B=31547, parA=1 parB=1
+Test passed for A=-32768 B=29512, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=32767 B=-18794, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=32767 B=-12092, parA=1 parB=0
+Test passed for A=-32768 B=-12803, parA=1 parB=0
+Test passed for A=12053 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=24787, parA=0 parB=1
+Test passed for A=32767 B=12105, parA=1 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=-32768 B=16344, parA=1 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-32768 B=-11230, parA=1 parB=0
+Test passed for A=-32768 B=1479, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=0 B=-11292, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=13717 B=0, parA=0 parB=0
+Test passed for A=6862 B=-5332, parA=0 parB=1
+Test passed for A=32767 B=14667, parA=1 parB=0
+Test passed for A=32767 B=-15069, parA=1 parB=1
+Test passed for A=-19694 B=32767, parA=1 parB=1
+Test passed for A=7276 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-13141 B=-32768, parA=1 parB=0
+Test passed for A=-24785 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-8108 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=0 B=-32768, parA=0 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-13275 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=20127, parA=1 parB=0
+Test passed for A=19011 B=23719, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-16753, parA=0 parB=1
+Test passed for A=-29834 B=32767, parA=1 parB=1
+Test passed for A=16327 B=0, parA=1 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=16006, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=-30843 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-19401, parA=1 parB=1
+Test passed for A=0 B=26817, parA=0 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=27584 B=-23014, parA=1 parB=1
+Test passed for A=-21456 B=13961, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=0, parA=0 parB=0
+Test passed for A=0 B=-845, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-18989 B=27775, parA=0 parB=1
+Hello from get_exp
+Test passed for A=0 B=-32768, parA=0 parB=0
+Test passed for A=-32768 B=-8565, parA=1 parB=0
+Test passed for A=-28628 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=15168, parA=0 parB=0
+Hello from get_exp
+Test passed for A=20411 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=29759 B=-32768, parA=0 parB=1
+Test passed for A=22117 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=26940, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-5325 B=0, parA=0 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=32767 B=24256, parA=1 parB=1
+Test passed for A=-28476 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=-22303, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=0
+Test passed for A=-7718 B=-19583, parA=1 parB=1
+Test passed for A=32767 B=5947, parA=1 parB=1
+Test passed for A=32767 B=-31507, parA=1 parB=0
+Test passed for A=32767 B=-11122, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=19719 B=-20432, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=0, parA=0 parB=0
+Test passed for A=32767 B=32321, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=7001 B=13959, parA=0 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-28000, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=28377 B=-16371, parA=0 parB=1
+Test passed for A=0 B=-5406, parA=0 parB=1
+Test passed for A=-29173 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=28997 B=32767, parA=1 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-21596 B=23632, parA=0 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=2887 B=7286, parA=1 parB=0
+Test passed for A=5358 B=32767, parA=0 parB=1
+Test passed for A=-18388 B=0, parA=1 parB=0
+Test passed for A=0 B=-25072, parA=0 parB=0
+Test passed for A=32767 B=-26222, parA=1 parB=1
+Test passed for A=-4177 B=-18733, parA=1 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=32767 B=-3336, parA=1 parB=0
+Test passed for A=10225 B=-31063, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=27295, parA=1 parB=0
+Test passed for A=-21117 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=5548 B=-3406, parA=0 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=0 B=-2072, parA=0 parB=1
+Test passed for A=17970 B=0, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-31733 B=-32768, parA=0 parB=0
+Test passed for A=-15373 B=0, parA=0 parB=0
+Test passed for A=0 B=17126, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=31889 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=0, parA=0 parB=0
+Test passed for A=-32768 B=-301, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Test passed for A=14576 B=32767, parA=1 parB=1
+Test passed for A=-7835 B=0, parA=0 parB=0
+Test passed for A=-32768 B=-23700, parA=1 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=0 B=-18410, parA=0 parB=1
+Test passed for A=0 B=6575, parA=0 parB=1
+Test passed for A=-10551 B=0, parA=1 parB=0
+Test passed for A=-18387 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=19817, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-13916 B=32767, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=1
+Test passed for A=0 B=-24443, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-18932 B=-32768, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=21843, parA=1 parB=0
+Test passed for A=32767 B=-17775, parA=1 parB=0
+Test passed for A=32767 B=-21067, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=32767 B=-4716, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=0 B=-26069, parA=0 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-25324 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-22129, parA=1 parB=0
+Test passed for A=0 B=7477, parA=0 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=-13275 B=-32768, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-25875 B=-3536, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=0, parA=0 parB=0
+Test passed for A=-32768 B=-29307, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-18471 B=32767, parA=1 parB=1
+Test passed for A=4931 B=15803, parA=0 parB=1
+Test passed for A=30188 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-26792 B=-9299, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=15577, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=0 B=-30957, parA=0 parB=0
+Test passed for A=11769 B=6274, parA=0 parB=0
+Test passed for A=29465 B=32767, parA=0 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=8531 B=0, parA=0 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-24823 B=-21565, parA=0 parB=1
+Test passed for A=-17742 B=24718, parA=1 parB=0
+Test passed for A=15635 B=32767, parA=0 parB=1
+Test passed for A=-11407 B=0, parA=1 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=28647 B=9058, parA=0 parB=0
+Test passed for A=32767 B=4889, parA=1 parB=0
+Test passed for A=28711 B=32767, parA=1 parB=1
+Test passed for A=4066 B=-10619, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=1 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=0 B=14715, parA=0 parB=0
+Test passed for A=19540 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=32767 B=2466, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=18721 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=8488 B=-3437, parA=0 parB=1
+Test passed for A=-14630 B=0, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=0 B=4411, parA=0 parB=1
+Hello from get_exp
+Test passed for A=19262 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=26688, parA=1 parB=0
+Hello from get_exp
+Test passed for A=4036 B=4606, parA=1 parB=0
+Test passed for A=-14872 B=-15536, parA=0 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=24658 B=32767, parA=1 parB=1
+Test passed for A=0 B=3394, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=13903 B=26098, parA=1 parB=1
+Test passed for A=-31493 B=23506, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-74 B=-32768, parA=1 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-32768 B=23353, parA=1 parB=1
+Test passed for A=0 B=-18326, parA=0 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=15355 B=0, parA=0 parB=0
+Test passed for A=-14388 B=32767, parA=1 parB=1
+Test passed for A=-4606 B=-32768, parA=1 parB=1
+Test passed for A=12074 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=1 parB=0
+Test passed for A=-1141 B=11645, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=0 parB=1
+Test passed for A=32706 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=-26724, parA=1 parB=1
+Test passed for A=-20040 B=5415, parA=0 parB=1
+Test passed for A=0 B=25790, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=-15736, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=0 B=-22784, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=17510, parA=0 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-18794, parA=1 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=9631 B=32767, parA=1 parB=1
+Test passed for A=-25988 B=32767, parA=1 parB=1
+Test passed for A=-19453 B=27211, parA=0 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-1590, parA=1 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-1347, parA=1 parB=0
+Test passed for A=0 B=24433, parA=0 parB=0
+Test passed for A=-32768 B=8500, parA=1 parB=1
+Test passed for A=32767 B=-23162, parA=1 parB=1
+Test passed for A=-26573 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-25148 B=32767, parA=0 parB=0
+Test passed for A=0 B=-7421, parA=0 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-30743, parA=0 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=0 B=32767, parA=0 parB=0
+Test passed for A=-11715 B=-30211, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=-10223 B=-32768, parA=0 parB=1
+Test passed for A=1735 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=0 B=-521, parA=0 parB=0
+Test passed for A=0 B=153, parA=0 parB=0
+Test passed for A=32767 B=24890, parA=1 parB=1
+Test passed for A=1214 B=0, parA=1 parB=0
+Test passed for A=-32768 B=-16927, parA=1 parB=0
+Hello from get_exp
+Test passed for A=6743 B=-32768, parA=0 parB=0
+Test passed for A=32767 B=-15213, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=1 parB=0
+Test passed for A=-6492 B=0, parA=0 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-13859 B=11181, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-6683 B=-32768, parA=0 parB=0
+Test passed for A=32767 B=-1821, parA=1 parB=0
+Test passed for A=32611 B=32767, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=15511, parA=1 parB=1
+Test passed for A=-1228 B=-28784, parA=0 parB=1
+Test passed for A=32767 B=-5227, parA=1 parB=0
+Test passed for A=27969 B=-32768, parA=1 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-8156 B=-9540, parA=1 parB=0
+Test passed for A=1465 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=29644, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=-9305 B=0, parA=1 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-24808 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=8092, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=32767 B=12032, parA=1 parB=1
+Test passed for A=-7306 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=31502, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=19335 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-3909 B=31756, parA=0 parB=1
+Test passed for A=24313 B=-23114, parA=1 parB=1
+Test passed for A=-10569 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-29022 B=21819, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-30540 B=32767, parA=0 parB=0
+Test passed for A=32767 B=20784, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32411 B=-24228, parA=0 parB=0
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=0, parA=0 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-24408, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=1 parB=0
+Test passed for A=-32768 B=26754, parA=1 parB=1
+Test passed for A=-32768 B=-20329, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-1128 B=-8798, parA=0 parB=0
+Test passed for A=32767 B=29155, parA=1 parB=1
+Test passed for A=13122 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-8957 B=-10969, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=-25885, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=19352 B=-32768, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=7029 B=-454, parA=1 parB=1
+Test passed for A=-30624 B=-32768, parA=0 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=18616 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-15677 B=-32768, parA=1 parB=0
+Test passed for A=32767 B=27817, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=0 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=20205 B=5188, parA=0 parB=0
+Test passed for A=6987 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=16235, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=14108, parA=1 parB=0
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-7475 B=30959, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=10398 B=32767, parA=1 parB=1
+Test passed for A=32767 B=-4516, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=0
+Test passed for A=-32768 B=21371, parA=1 parB=0
+Test passed for A=-14065 B=10680, parA=0 parB=1
+Test passed for A=22224 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-7341, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-24549 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=1 parB=0
+Test passed for A=0 B=-32427, parA=0 parB=0
+Test passed for A=32767 B=-7680, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=4416 B=-5026, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-7641, parA=1 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=32767 B=-30684, parA=1 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=-18039 B=0, parA=0 parB=0
+Test passed for A=-24630 B=28772, parA=0 parB=0
+Test passed for A=23958 B=32767, parA=1 parB=1
+Test passed for A=-11539 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=19729, parA=1 parB=0
+Hello from get_exp
+Test passed for A=3583 B=28461, parA=0 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-9665 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=3667 B=-15859, parA=0 parB=0
+Test passed for A=15881 B=-32768, parA=1 parB=1
+Test passed for A=-13479 B=-3801, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=18064 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=8269, parA=1 parB=1
+Test passed for A=31262 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-29897 B=-32768, parA=1 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=1126 B=0, parA=1 parB=0
+Test passed for A=1239 B=25407, parA=1 parB=0
+Test passed for A=7532 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=-22378, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-6620 B=-6791, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-31915 B=21730, parA=1 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-26753 B=0, parA=0 parB=0
+Test passed for A=-32768 B=22014, parA=1 parB=1
+Test passed for A=-17592 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=31892 B=32767, parA=0 parB=0
+Test passed for A=21424 B=0, parA=1 parB=0
+Test passed for A=30887 B=0, parA=1 parB=0
+Test passed for A=32767 B=12653, parA=1 parB=0
+Test passed for A=-16588 B=-23978, parA=0 parB=1
+Test passed for A=-18352 B=32767, parA=0 parB=1
+Test passed for A=32767 B=-7946, parA=1 parB=1
+Test passed for A=17671 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-26168, parA=1 parB=0
+Test passed for A=25933 B=-30307, parA=0 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-8011 B=-24808, parA=0 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-21439 B=13934, parA=0 parB=0
+Hello from get_exp
+Test passed for A=23907 B=32767, parA=0 parB=1
+Test passed for A=32767 B=-13441, parA=1 parB=0
+Test passed for A=0 B=6743, parA=0 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=30613, parA=1 parB=0
+Test passed for A=32767 B=-19484, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=0 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-32768 B=-23862, parA=1 parB=1
+Test passed for A=-20275 B=-3657, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-21577 B=-32768, parA=1 parB=1
+Test passed for A=13604 B=-20954, parA=0 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-9332 B=18317, parA=1 parB=0
+Test passed for A=32767 B=-23127, parA=1 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-19516 B=1690, parA=0 parB=0
+Test passed for A=14177 B=-9344, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=4450, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=22627 B=-32768, parA=0 parB=0
+Test passed for A=-4549 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=10826, parA=1 parB=0
+Test passed for A=32767 B=31980, parA=1 parB=0
+Test passed for A=11750 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=19632 B=25354, parA=0 parB=0
+Test passed for A=32767 B=28235, parA=1 parB=1
+Hello from get_exp
+Test passed for A=15699 B=32767, parA=0 parB=1
+Test passed for A=8880 B=32767, parA=1 parB=1
+Test passed for A=-6133 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=32767 B=26367, parA=1 parB=0
+Test passed for A=28734 B=9727, parA=0 parB=1
+Test passed for A=-32768 B=-22521, parA=1 parB=0
+Test passed for A=-28462 B=-32509, parA=0 parB=0
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=-10483 B=-28429, parA=1 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=12834, parA=0 parB=1
+Test passed for A=3232 B=-7084, parA=0 parB=1
+Test passed for A=-30268 B=-20514, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-12259 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=-29885, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=2349 B=32767, parA=0 parB=1
+Test passed for A=-11351 B=30119, parA=1 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-32768 B=16918, parA=1 parB=1
+Test passed for A=-32768 B=-28219, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=30669, parA=1 parB=0
+Hello from get_exp
+Test passed for A=-26918 B=4646, parA=0 parB=1
+Test passed for A=-20106 B=-29311, parA=1 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-363 B=-32768, parA=1 parB=1
+Test passed for A=25974 B=0, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=5310 B=0, parA=0 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Test passed for A=20126 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=-27680 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=17946, parA=1 parB=0
+Test passed for A=4415 B=-30202, parA=0 parB=1
+Test passed for A=-31168 B=-21830, parA=0 parB=1
+Test passed for A=-32768 B=15423, parA=1 parB=0
+Test passed for A=-32768 B=-26537, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=-31162, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=30404 B=-28611, parA=0 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-1970, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-23752 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-20660 B=32767, parA=1 parB=1
+Test passed for A=25443 B=32767, parA=0 parB=1
+Test passed for A=27136 B=0, parA=0 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=12482 B=-16664, parA=1 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-32768 B=-22128, parA=1 parB=0
+Test passed for A=-32768 B=-14399, parA=1 parB=0
+Test passed for A=1904 B=11366, parA=0 parB=1
+Test passed for A=-4034 B=7661, parA=1 parB=0
+Test passed for A=-13896 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-16396 B=32767, parA=0 parB=0
+Test passed for A=7335 B=10046, parA=0 parB=1
+Test passed for A=13853 B=-4150, parA=0 parB=1
+Test passed for A=0 B=20474, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=-8729, parA=0 parB=0
+Test passed for A=4343 B=32767, parA=0 parB=1
+Test passed for A=-2925 B=3525, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=16573, parA=0 parB=1
+Test passed for A=22072 B=-32768, parA=1 parB=1
+Test passed for A=0 B=13347, parA=0 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=32485, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-3980 B=32767, parA=0 parB=0
+Test passed for A=-18135 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=-17420, parA=1 parB=1
+Test passed for A=0 B=-32768, parA=0 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=-32768 B=26014, parA=1 parB=1
+Test passed for A=21001 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=-29668, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=1 parB=0
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=-27462 B=32767, parA=0 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=5492 B=1765, parA=1 parB=1
+Test passed for A=12568 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=-29682 B=32767, parA=0 parB=1
+Test passed for A=0 B=32767, parA=0 parB=1
+Test passed for A=10806 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=3576, parA=0 parB=0
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=17157 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=1 parB=0
+Test passed for A=4866 B=0, parA=0 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=-32768 B=32767, parA=1 parB=1
+Test passed for A=13485 B=-15133, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-17084 B=-32768, parA=0 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Hello from get_exp
+Test passed for A=-32768 B=-26075, parA=1 parB=0
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=5101 B=32767, parA=1 parB=0
+Test passed for A=-32768 B=-10456, parA=1 parB=0
+Test passed for A=-32768 B=-10917, parA=1 parB=0
+Test passed for A=-6247 B=-32139, parA=0 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=-32768, parA=1 parB=0
+Test passed for A=0 B=26421, parA=0 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=0 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=1 parB=0
+Test passed for A=13310 B=-32768, parA=1 parB=1
+Test passed for A=-3288 B=-32768, parA=0 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=-32768 B=-20264, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=2905, parA=1 parB=0
+Test passed for A=-19347 B=17571, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=11825, parA=0 parB=1
+Test passed for A=32767 B=0, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Test passed for A=1824 B=-32768, parA=0 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=4717 B=0, parA=1 parB=0
+Test passed for A=-13893 B=32767, parA=0 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=9400 B=-32768, parA=0 parB=1
+Test passed for A=-12565 B=12897, parA=1 parB=0
+Test passed for A=32767 B=-32768, parA=1 parB=1
+Test passed for A=-25040 B=-6322, parA=1 parB=0
+Test passed for A=-32768 B=-32768, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-22921 B=-32768, parA=0 parB=0
+Test passed for A=26749 B=-24255, parA=1 parB=1
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=-13682 B=-8747, parA=0 parB=1
+Test passed for A=-5490 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Test passed for A=32767 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Test passed for A=-14852 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=32767 B=32767, parA=0 parB=1
+Test passed for A=0 B=0, parA=0 parB=0
+Test passed for A=-32768 B=0, parA=1 parB=0
+Test passed for A=-32768 B=2300, parA=1 parB=1
+Hello from get_exp
+Test passed for A=0 B=32767, parA=0 parB=0
+Test passed for A=32767 B=17173, parA=1 parB=0
+Test passed for A=32767 B=16691, parA=1 parB=0
+Test passed for A=8242 B=-32768, parA=0 parB=1
+Test passed for A=-10330 B=0, parA=0 parB=0
+Test passed for A=18748 B=32767, parA=1 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=11921, parA=1 parB=0
+Hello from get_exp
+Test passed for A=32767 B=-32768, parA=0 parB=1
+Hello from get_exp
+Test passed for A=-32768 B=32767, parA=0 parB=1
+UVM_INFO /eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_objection.svh(1271) @ 79540000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+[1;30m[102m-----------------------------------
+----------- Test PASSED -----------
+-----------------------------------[0m
+
+UVM_INFO /eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_report_catcher.svh(705) @ 79540000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_report_server.svh(847) @ 79540000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    4
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/REPORT/CATCHER]     1
+[UVMTOP]     1
+
+Simulation complete via $finish(1) at time 79540 NS + 59
+/eda/cadence/2021-22/RHELx86/XCELIUM_21.03.009/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_root.svh:543     $finish;
+xcelium> exit
+See ./cov_work/scope/test/icc.com file for message(s) on coverage constant object marking
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  top(top)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_33d99118_4996bb1f.ucm
+  data               :  ./cov_work/scope/test/icc_33d99118_4996bb1f.ucd
